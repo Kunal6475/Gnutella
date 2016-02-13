@@ -1,0 +1,19 @@
+1.The configuration file g04.conf will be in the same folder in which g04 program is running.
+2.There should be no space in between the name of the configuration parameter and the value in the configuration file.
+3.The seedNodes file should be in the same foler in which g04 program is running.
+4.The file containing the local files should be in the same folder in which g04 program is running.
+5.There should not be any space before the ipaddress or the hostname in the seedNodes file.
+6.There should not be any space between the fileName and the keywords in the file containing the local files information.For example:
+  Test.pl:Perl|Socket Programming|Test  is valid.
+  Test.pl: Perl|Socket Programming|Test is invalid.
+7.Maximum number of characters in each line of configuration file is 200.
+8.The maximum number of characters in Guntella application can process at a time is 75.
+9.The maximum 20 neighbours can connect to a seed node.
+10.File will get downloaded in the folder in which Gnutella application is running.
+11.If no local file name is given in the get command then the file downloaded will have the same name as in the host machine.
+12.If the node is seedNode it will not send out ping messages.
+13.Currently the system supports 25 ping messages from each node.
+14.Maximum length of the file name is 50 characters.
+15.Maximum number of characters in each line of file containing local file information is 100.
+16.Currently the system supports 25 query messages from each node.
+17.As specified in the project document sometimes duplicate connections may be created.
